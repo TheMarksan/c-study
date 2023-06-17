@@ -15,7 +15,7 @@ int main()
     letra1 = getchar();
 
     printf("Digite outra letra: ");
-    limpar_entrada();
+    limpar_entrada(); //limpar \n da entrada gerada pelo "caracter" ENTER
     letra2 = getchar();
 
     printf("As letras digitadas foram %c e %c\n", letra1, letra2);
