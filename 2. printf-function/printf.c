@@ -6,7 +6,12 @@
 int main()
 {
     /* output function */
-    printf("\nValor retornado: %d\n", printf("Olá, mundo!"));
+    int a;
+
+    a = 7;
+
+    printf("Olá, mundo!\n");
+    printf("%d\n", a);
     
     return 0;
 }
