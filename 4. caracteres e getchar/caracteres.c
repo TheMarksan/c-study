@@ -8,6 +8,9 @@ int main(int argc, char const *argv[])
     printf("Digite um caractere: ");
     letra = getchar();
 
+    //getchar = mesma função do scanf, exclusivo para strings
+    //getc e fgetc = dados de outras fontes além do teclado(stdin)
+
     printf("Caracter lido: %c\n", letra);
     return 0;
 }
